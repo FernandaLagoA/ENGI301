@@ -44,6 +44,10 @@ Operations:
   - subtraction
   - multiplication
   - division
+  - exponentiation
+  - modulo
+  - left shift
+  - right shift
 
 Error conditions:
   - Invalid operator --> Program should exit
@@ -51,7 +55,7 @@ Error conditions:
 
 --------------------------------------------------------------------------
 """
-
+from builtins import input #adds in compatibility with Python2
 import operator
 
 # ------------------------------------------------------------------------
@@ -83,14 +87,11 @@ operators = {
 def get_user_input():
 
     try:
-        input = raw_input
         number1 = float(input("Enter the first number: "))
         number2 = float(input("Enter the second number: "))
         op = input("Enter the operator(valid operators are +, -, *, /, %, **, <<, >>): ")
    
         return(number1, number2, op)
-    except NameError:
-        pass
     except:
         print("Invalid Input")
         return (None , None , None)
@@ -98,7 +99,6 @@ def get_user_input():
 # ------------------------------------------------------------------------
 # Main script
 # ------------------------------------------------------------------------
-
 
 
 if __name__ == "__main__":
