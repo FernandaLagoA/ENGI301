@@ -49,6 +49,7 @@ Background Information:
 Outline:
     
     - Set up the PocketBeagle, LCD screen, texting interface, light sensors, humidity sensor, and WIFI adapter
+    - Set your email, password, and phone number below
     - Use the functions to gather the necessary data
         - Based on data, user may receive a text to remind them to water plant or to notify them about sunlight level
         - Display will output text regarding status of plant
