@@ -52,7 +52,7 @@ Outline:
     - Use the functions to gather the necessary data
         - Based on data, user may receive a text to remind them to water plant or to notify them about sunlight level
         - Display will output text regarding status of plant
-
+        
 """
 
 #Import necessary libraries for LCD Screen
