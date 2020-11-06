@@ -3,12 +3,11 @@
 # Connect to the wifi
 # connmanctl enable wifi
 # connmanctl agent on
-# connmanctl connect wifi_74da38de508b_526963652056697369746f72_managed_none
+# connmanctl connect <wifi>
 
 #set up symbolic link
 
 echo temppwd | sudo -S ln -s /dev/spidev1.0 /dev/spidev0.0
-
 
 # Change to appropriate directory
 cd /var/lib/cloud9/ENGI301/Project
