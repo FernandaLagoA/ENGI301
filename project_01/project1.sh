@@ -5,6 +5,7 @@
 # connmanctl agent on
 # connmanctl connect <wifi>
 
+
 #set up symbolic link
 
 echo temppwd | sudo -S ln -s /dev/spidev1.0 /dev/spidev0.0
