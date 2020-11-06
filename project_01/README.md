@@ -1,4 +1,4 @@
-Plant Reminder Box
+**Plant Reminder Box**
 
 ENGI 301 Course Project
 
@@ -8,12 +8,11 @@ This github repository contains all the code necessary for creating a PocketBeag
 
 A more descriptive set of instructions for this device can be found on 
 
-Instructions:
+**Instructions:**
 
-To execute the script, download the github repository and add to your Cloud9 Linux interface for the PocketBeagle.
+*To execute the script, download the github repository and add to your Cloud9 Linux interface for the PocketBeagle.
 
-With all the necessary hardware components, the user should plug the device into an external power source or a computer.
+*With all the necessary hardware components, the user should plug the device into an external power source or a computer.
 
-The device should run on autoboot once a wifi connection is established, the user has entered their email credentials and phone number,
-
+*The device should run on autoboot once a wifi connection is established, the user has entered their email credentials and phone number,
 and the cron -e commands are set up on the computer.
