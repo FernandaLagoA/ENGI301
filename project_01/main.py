@@ -115,6 +115,16 @@ analog_in_2="P1_21"
 
 ADC.setup()
 
+# ------------------------------------------------------------------------------
+# Set email, password, and phone number (go to https://www.digikey.com/en/articles/how-to-make-a-beaglebone-based-appliance-notification-texter
+# to look up structure for your phone number depending on your wireless provider)
+# ------------------------------------------------------------------------------
+
+email = " "
+
+password = " "
+
+phone_number = " "
                             
 # ------------------------------------------------------------------------------
 # Functions
@@ -211,14 +221,14 @@ def sendtextwater(moisture):
         print(moisture)
         
         
-def sendtextlight(level):
+def sendtextlight(level, email, password, phone_number):
     """
     Sends text to user if plant is getting too little or too much sun
     """
-    email = 'ferlago507@gmail.com' # Your email
-    password = 'FerLake507!' # Your email account password
-    #send_to_email = "6303379642@txt.att.net" # Who you are sending the message to
-    send_to_email = "9544392352@txt.att.net"
+    email1 = email # Your email
+    password1 = password # Your email account password
+    #send_to_email = # Who you are sending the message to
+    send_to_email = phone_number
     message1 = 'Your plant is receiving too much sunlight!' # The message in the email
     message2 = 'Your plant is not receiving enough sunlight!'
     if level == "high":
