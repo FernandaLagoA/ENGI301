@@ -1,0 +1,12 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"TP_SIGNAL_NAME";
+"1";"";"GHI2_USB_HOST_W/CHASSIS_GND";"GHI2_USB_HOST_HORIZONTAL_W/CHASSIS_GND";"X1";"";"";
+"2";"10k";"R_R0402";"R0402";"R1, R6";"RESISTOR, American symbol";"";
+"2";"1k";"R_R0402";"R0402";"R2, R4";"RESISTOR, American symbol";"";
+"1";"ATSAMD10D14A";"ATSAMD10D14A";"QFN24_4MM";"IC1";"";"";
+"6";"FIDUCIAL";"FIDUCIAL";"FIDUCIAL_40MIL";"FUD1, FUD2, FUD3, FUD4, FUD5, FUD6";"";"";
+"1";"PINHD-1X10";"PINHD-1X10";"1X10-BIG";"U$1";"Pin header 1x10 0.1" spacing";"";
+"1";"POCKETBEAGLE";"POCKETBEAGLE";"POCKETBEAGLE";"U3";"";"";
+"1";"RED";"LED0805_NOOUTLINE";"CHIPLED_0805_NOOUTLINE";"D1";"LED";"";
+"2";"TEMT6000";"TEMT6000";"TEMT6000";"U1, U2";"";"";
+"1";"TPTP10R";"TPTP10R";"TP10R";"TP3";"Test pad";"";
+"3";"TPTP15R";"TPTP15R";"TP15R";"TP1, TP2, TP4";"Test pad";"";
