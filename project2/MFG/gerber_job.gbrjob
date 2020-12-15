@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-12-15T14:59:06Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.53,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "Plant Reminder"
+        },
+        "Owner": "Fernanda Lago <fl18@rice.edu>",
+        "Size": {
+            "X": 74.91,
+            "Y": 77.14
+        }
+    }
+}
